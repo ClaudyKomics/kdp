@@ -1,0 +1,16 @@
+@import "../utils/size";
+@import "../utils/colors";
+
+@each $color, $value in $listColor {
+  .but-#{$color} {
+    background-color: $value;
+  }
+}
+
+@each $size, $value in $listSize {
+  .but-#{$size} {
+    font-size: $value;
+    border: 0;
+    border-radius: 20%;
+  }
+}
