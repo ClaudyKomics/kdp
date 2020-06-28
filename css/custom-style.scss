@@ -1,5 +1,6 @@
 @import "../utils/size";
 @import "../utils/colors";
+
 /* background */
 @each $color, $value in $listColor {
   .but-#{$color} {
