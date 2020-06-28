@@ -1,3 +1,4 @@
+/* background */
 .but-green {
   background-color: green;
 }
@@ -46,6 +47,8 @@
   background-color: violet;
 }
 
+/* end background */
+/* button */
 .but-1 {
   font-size: 25px;
   border: 0;
@@ -69,5 +72,633 @@
   text-transform: uppercase;
   box-shadow: 1px 1px 10px black;
 }
+
+/* end button */
+/* form text */
+.groupform {
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 50%;
+}
+
+.form__field-green {
+  font-family: inherit;
+  width: 50%;
+  border: 0;
+  border-bottom: 2px solid green;
+  outline: 0;
+  font-size: 1.3rem;
+  color: white;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+.form__field-green::placeholder {
+  color: transparent;
+}
+.form__field-green:placeholder-shown ~ .form__label-green {
+  font-size: 1.3rem;
+  cursor: text;
+  top: 20px;
+}
+
+.form__label-green {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: grey;
+}
+
+.form__field-green:focus {
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+}
+.form__field-green:focus ~ .form__label-green {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: green;
+  font-weight: 700;
+}
+
+.groupform {
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 50%;
+}
+
+.form__field-red {
+  font-family: inherit;
+  width: 50%;
+  border: 0;
+  border-bottom: 2px solid red;
+  outline: 0;
+  font-size: 1.3rem;
+  color: white;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+.form__field-red::placeholder {
+  color: transparent;
+}
+.form__field-red:placeholder-shown ~ .form__label-red {
+  font-size: 1.3rem;
+  cursor: text;
+  top: 20px;
+}
+
+.form__label-red {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: grey;
+}
+
+.form__field-red:focus {
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+}
+.form__field-red:focus ~ .form__label-red {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: red;
+  font-weight: 700;
+}
+
+.groupform {
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 50%;
+}
+
+.form__field-yellow {
+  font-family: inherit;
+  width: 50%;
+  border: 0;
+  border-bottom: 2px solid yellow;
+  outline: 0;
+  font-size: 1.3rem;
+  color: white;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+.form__field-yellow::placeholder {
+  color: transparent;
+}
+.form__field-yellow:placeholder-shown ~ .form__label-yellow {
+  font-size: 1.3rem;
+  cursor: text;
+  top: 20px;
+}
+
+.form__label-yellow {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: grey;
+}
+
+.form__field-yellow:focus {
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+}
+.form__field-yellow:focus ~ .form__label-yellow {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: yellow;
+  font-weight: 700;
+}
+
+.groupform {
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 50%;
+}
+
+.form__field-pink {
+  font-family: inherit;
+  width: 50%;
+  border: 0;
+  border-bottom: 2px solid pink;
+  outline: 0;
+  font-size: 1.3rem;
+  color: white;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+.form__field-pink::placeholder {
+  color: transparent;
+}
+.form__field-pink:placeholder-shown ~ .form__label-pink {
+  font-size: 1.3rem;
+  cursor: text;
+  top: 20px;
+}
+
+.form__label-pink {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: grey;
+}
+
+.form__field-pink:focus {
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+}
+.form__field-pink:focus ~ .form__label-pink {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: pink;
+  font-weight: 700;
+}
+
+.groupform {
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 50%;
+}
+
+.form__field-brown {
+  font-family: inherit;
+  width: 50%;
+  border: 0;
+  border-bottom: 2px solid brown;
+  outline: 0;
+  font-size: 1.3rem;
+  color: white;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+.form__field-brown::placeholder {
+  color: transparent;
+}
+.form__field-brown:placeholder-shown ~ .form__label-brown {
+  font-size: 1.3rem;
+  cursor: text;
+  top: 20px;
+}
+
+.form__label-brown {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: grey;
+}
+
+.form__field-brown:focus {
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+}
+.form__field-brown:focus ~ .form__label-brown {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: brown;
+  font-weight: 700;
+}
+
+.groupform {
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 50%;
+}
+
+.form__field-black {
+  font-family: inherit;
+  width: 50%;
+  border: 0;
+  border-bottom: 2px solid black;
+  outline: 0;
+  font-size: 1.3rem;
+  color: white;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+.form__field-black::placeholder {
+  color: transparent;
+}
+.form__field-black:placeholder-shown ~ .form__label-black {
+  font-size: 1.3rem;
+  cursor: text;
+  top: 20px;
+}
+
+.form__label-black {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: grey;
+}
+
+.form__field-black:focus {
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+}
+.form__field-black:focus ~ .form__label-black {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: black;
+  font-weight: 700;
+}
+
+.groupform {
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 50%;
+}
+
+.form__field-white {
+  font-family: inherit;
+  width: 50%;
+  border: 0;
+  border-bottom: 2px solid white;
+  outline: 0;
+  font-size: 1.3rem;
+  color: white;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+.form__field-white::placeholder {
+  color: transparent;
+}
+.form__field-white:placeholder-shown ~ .form__label-white {
+  font-size: 1.3rem;
+  cursor: text;
+  top: 20px;
+}
+
+.form__label-white {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: grey;
+}
+
+.form__field-white:focus {
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+}
+.form__field-white:focus ~ .form__label-white {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: white;
+  font-weight: 700;
+}
+
+.groupform {
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 50%;
+}
+
+.form__field-grey {
+  font-family: inherit;
+  width: 50%;
+  border: 0;
+  border-bottom: 2px solid grey;
+  outline: 0;
+  font-size: 1.3rem;
+  color: white;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+.form__field-grey::placeholder {
+  color: transparent;
+}
+.form__field-grey:placeholder-shown ~ .form__label-grey {
+  font-size: 1.3rem;
+  cursor: text;
+  top: 20px;
+}
+
+.form__label-grey {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: grey;
+}
+
+.form__field-grey:focus {
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+}
+.form__field-grey:focus ~ .form__label-grey {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: grey;
+  font-weight: 700;
+}
+
+.groupform {
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 50%;
+}
+
+.form__field-beige {
+  font-family: inherit;
+  width: 50%;
+  border: 0;
+  border-bottom: 2px solid beige;
+  outline: 0;
+  font-size: 1.3rem;
+  color: white;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+.form__field-beige::placeholder {
+  color: transparent;
+}
+.form__field-beige:placeholder-shown ~ .form__label-beige {
+  font-size: 1.3rem;
+  cursor: text;
+  top: 20px;
+}
+
+.form__label-beige {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: grey;
+}
+
+.form__field-beige:focus {
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+}
+.form__field-beige:focus ~ .form__label-beige {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: beige;
+  font-weight: 700;
+}
+
+.groupform {
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 50%;
+}
+
+.form__field-orange {
+  font-family: inherit;
+  width: 50%;
+  border: 0;
+  border-bottom: 2px solid orange;
+  outline: 0;
+  font-size: 1.3rem;
+  color: white;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+.form__field-orange::placeholder {
+  color: transparent;
+}
+.form__field-orange:placeholder-shown ~ .form__label-orange {
+  font-size: 1.3rem;
+  cursor: text;
+  top: 20px;
+}
+
+.form__label-orange {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: grey;
+}
+
+.form__field-orange:focus {
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+}
+.form__field-orange:focus ~ .form__label-orange {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: orange;
+  font-weight: 700;
+}
+
+.groupform {
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 50%;
+}
+
+.form__field-blue {
+  font-family: inherit;
+  width: 50%;
+  border: 0;
+  border-bottom: 2px solid blue;
+  outline: 0;
+  font-size: 1.3rem;
+  color: white;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+.form__field-blue::placeholder {
+  color: transparent;
+}
+.form__field-blue:placeholder-shown ~ .form__label-blue {
+  font-size: 1.3rem;
+  cursor: text;
+  top: 20px;
+}
+
+.form__label-blue {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: grey;
+}
+
+.form__field-blue:focus {
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+}
+.form__field-blue:focus ~ .form__label-blue {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: blue;
+  font-weight: 700;
+}
+
+.groupform {
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 50%;
+}
+
+.form__field-violet {
+  font-family: inherit;
+  width: 50%;
+  border: 0;
+  border-bottom: 2px solid violet;
+  outline: 0;
+  font-size: 1.3rem;
+  color: white;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+.form__field-violet::placeholder {
+  color: transparent;
+}
+.form__field-violet:placeholder-shown ~ .form__label-violet {
+  font-size: 1.3rem;
+  cursor: text;
+  top: 20px;
+}
+
+.form__label-violet {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: grey;
+}
+
+.form__field-violet:focus {
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+}
+.form__field-violet:focus ~ .form__label-violet {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: violet;
+  font-weight: 700;
+}
+
+/* end form text */
 
 /*# sourceMappingURL=custom-style.css.map */
