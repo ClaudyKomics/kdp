@@ -11,6 +11,8 @@
   .but-#{$size} {
     font-size: $value;
     border: 0;
-    border-radius: 20%;
+    border-radius: 40px;
+    text-transform: uppercase;
+    box-shadow: 01px 01px 10px black;
   }
 }

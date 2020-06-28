@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34b0ae8f-a498-4f44-b0f0-f22f0d899b3a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/custom-style.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/colors.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/size.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/custom-style.css" afterPath="$PROJECT_DIR$/css/custom-style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/custom-style.css.map" afterPath="$PROJECT_DIR$/css/custom-style.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/custom-style.scss" afterPath="$PROJECT_DIR$/css/custom-style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/size.scss" afterPath="$PROJECT_DIR$/utils/size.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,8 +30,8 @@
       <file leaf-file-name="custom-style.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/custom-style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+            <state relative-caret-position="306">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -41,8 +40,8 @@
       <file leaf-file-name="size.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils/size.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="68">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -61,10 +60,11 @@
       <file leaf-file-name="custom-style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/custom-style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="658">
-              <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+            <state relative-caret-position="250">
+              <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
               <folding>
-                <marker date="1593326878702" expanded="true" signature="519:553" ph="{...}" />
+                <marker date="1593327753830" expanded="true" signature="519:523" ph="{...}" />
+                <marker date="1593327753830" expanded="true" signature="780:900" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -87,9 +87,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/utils/colors.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/utils/size.scss" />
         <option value="$PROJECT_DIR$/css/custom-style.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/custom-style.scss" />
       </list>
     </option>
@@ -268,12 +268,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593323331773</updated>
-      <workItem from="1593323334822" duration="3609000" />
+      <workItem from="1593323334822" duration="4421000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3609000" />
+    <option name="totallyTimeSpent" value="4421000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -319,19 +319,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/utils/size.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/custom-style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="658">
-          <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-          <folding>
-            <marker date="1593326878702" expanded="true" signature="519:553" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -343,10 +333,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/custom-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding>
+            <marker date="1593327753830" expanded="true" signature="519:523" ph="{...}" />
+            <marker date="1593327753830" expanded="true" signature="780:900" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/custom-style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        <state relative-caret-position="306">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>

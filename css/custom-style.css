@@ -49,19 +49,25 @@
 .but-1 {
   font-size: 25px;
   border: 0;
-  border-radius: 20%;
+  border-radius: 40px;
+  text-transform: uppercase;
+  box-shadow: 1px 1px 10px black;
 }
 
 .but-2 {
-  font-size: 50px;
+  font-size: 35px;
   border: 0;
-  border-radius: 20%;
+  border-radius: 40px;
+  text-transform: uppercase;
+  box-shadow: 1px 1px 10px black;
 }
 
 .but-3 {
-  font-size: 75px;
+  font-size: 50px;
   border: 0;
-  border-radius: 20%;
+  border-radius: 40px;
+  text-transform: uppercase;
+  box-shadow: 1px 1px 10px black;
 }
 
 /*# sourceMappingURL=custom-style.css.map */
